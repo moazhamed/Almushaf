@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/surah_background_id"
+        android:layout_width="137dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/suraah_backgroung"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/suraah_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:fontFamily="@font/kfcnaskhwebfont"
+        app:layout_constraintBottom_toBottomOf="@id/surah_background_id"
+        app:layout_constraintEnd_toEndOf="@id/surah_background_id"
+        app:layout_constraintStart_toStartOf="@id/surah_background_id"
+        app:layout_constraintTop_toTopOf="@id/surah_background_id"
+        tools:text="ال عمران " />
+
+</android.support.constraint.ConstraintLayout>

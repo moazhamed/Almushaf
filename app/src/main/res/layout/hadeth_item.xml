@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/hadeeth_item_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/kfcnaskhwebfont"
+        android:gravity="center_horizontal"
+        android:padding="30dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="عن عبد الله بن بسر قال : أتي النبي صلى الله عليه وسلم رجل ، فقال : يا رسول الله إن شرائع الإسلام قد كثرت علينا ، فباب نتمسك به جامع ؟ قال : ( لا يزال لسانك رطبا من ذكر الله عز وجل ) .
+رواه أحمد [ رقم : 188 و 190 ] ." />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/hadeeth_item_text_view"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

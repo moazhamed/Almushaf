@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Al mushaf</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_quraan">القران الكريم</string>
+    <string name="title_sebha">السبحة الاكترونية</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_surrah">SurrahActivity</string>
+    <string name="title_hadeth">الاحاديث</string>
+    <string name="title_radio">الراديو</string>
+    <string name="cannot_play_channel">can not play channel</string>
+    <string name="error">error</string>
+    <string name="ok">ok</string>
+</resources>
